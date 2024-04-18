@@ -5,7 +5,7 @@ public class Tusk01 {
         int y = 4;
         int q = x / y;
         int w = x % y;
-        System.out.println(x + " / " + y + " = ");
-        System.out.println("квадратный корень");
+        System.out.println(x + " / " + y + " = " + q + " и "+ w + "в остатке");
+        System.out.println("квадратный корень x = " + Math.sqrt(x));
     }
 }
